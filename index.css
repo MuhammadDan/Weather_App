@@ -1,0 +1,92 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    background-color: #1abc9c;
+}
+.weather-container{
+   background: url("https://images.unsplash.com/photo-1503327431567-3ab5e6e79140?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OXx8d2VhdGhlciUyMGFwcHxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60");
+   height: 450px;
+   background-repeat: no-repeat;
+   background-size: cover;
+   width: 350px;
+   margin-left: 550px;
+   margin-top: 100px;
+   display: flex;
+   flex-direction: column;
+   position: relative;
+   border-radius: 15px;
+}
+.row{
+    width: 200px;
+    margin-top: 30px;
+    margin-left: 35px;
+    height: 30px;
+    position: absolute; 
+}
+.btn{
+    position: absolute;
+    width: 75px;
+    height: 40px;
+    left: 205px;
+    border: none;
+    outline: none;
+    border-radius: 15px;
+    cursor: pointer;
+}
+.sea{
+    height: 40px;
+    width: 200px;
+    padding-left: 10px;
+    border: none;
+    outline: none; 
+    border-radius: 15px;
+}
+/* .row2{
+    position: absolute;
+    top: 90px;
+    left: 40px;
+    font-size: 30px;
+    color: white;
+} */
+.text1{
+    font-size: 20px;
+}
+.text2{
+    text-shadow: 2px 5px rgb(0,0,0.6);
+}
+#text3{
+    position: absolute;
+    left: -40px;
+}
+.row1{
+    position: absolute;
+    top: 150px;
+    left: 100px;
+    font-size: 40px;
+    color: white;
+}
+#cityName{
+    font-size: 25px;
+    position: absolute;
+    top: -50px;
+    left: -30px;
+}
+@media (max-width: 414px){
+    .weather-container{
+        margin-left: 0px;
+        margin-top: 0px;
+        height: 900px;
+        width: 410px;
+    }
+    .row1{
+        position: absolute;
+        top: 250px;
+        left: 100px;
+        font-size: 40px;
+        color: white;
+    }
+}
